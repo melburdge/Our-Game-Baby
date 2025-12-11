@@ -64,7 +64,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("Add to the Collectible Count!");
 
         collectibleCount++; // ++ adds one to the current value of an int variable
-        countText.text = "Collected: " + collectibleCount.ToString();
+        countText.text = "Tools Collected: " + collectibleCount.ToString();
         Debug.Log($"New Collectible Count is {collectibleCount}");
 
         // We've collected a new collectible! Do we have enough collectibles to win the game?
