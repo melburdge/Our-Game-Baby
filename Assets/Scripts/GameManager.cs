@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
         blackScreenImage.color = Color.clear;
         if (countText != null)
         {
-            countText.text = "Collected: 0";
+            countText.text = "Tools Collected: 0";
         }
         
     }
